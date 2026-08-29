@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0B0B14" />
+
+    <title>Guacdoodle — Producer, DJ &amp; Sound Designer</title>
+    <meta
+      name="description"
+      content="Official site of Guacdoodle. Listen to releases, catch upcoming shows, browse artwork and grab merch."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Guacdoodle — Producer, DJ &amp; Sound Designer" />
+    <meta
+      property="og:description"
+      content="Listen to releases, catch upcoming shows, browse artwork and grab merch."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // Applies the saved theme before first paint so there is no flash of the
+      // wrong palette. No attribute at all means "follow the OS", which the CSS
+      // handles via prefers-color-scheme.
+      try {
+        var t = localStorage.getItem('guacdoodle-theme')
+        if (t === 'dark' || t === 'light') {
+          document.documentElement.setAttribute('data-theme', t)
+        }
+      } catch (e) {
+        /* private mode / blocked storage — fall back to the OS preference */
+      }
+    </script>
+    <script type="module" crossorigin src="/Guacdoodle_Hosted/assets/index-CgXNCslJ.js"></script>
+    <link rel="stylesheet" crossorigin href="/Guacdoodle_Hosted/assets/index-DQKo1tnj.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
